@@ -1,0 +1,180 @@
+/* import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    font: normal 25 22px/26px "Roboto", cursive;
+    color: orangered;
+    padding: 0 1rem 0 2rem;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 0rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px "Roboto", cursive;
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.35rem;
+    color: rgb(86, 181, 244);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    font: normal 500 12px/2px "Roboto", cursive;
+    background: linear-gradient(90deg, purple 0%, pink 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+
+/* banner area */
+
+.site-main .site-banner{
+/*background: url(./Get\ It\ Together\ And\ Get\ It\ Done\ _\ Quotes\ _\ Hannah\ Wills\ Art.jpg) no-repeat 5% 50%;*/
+background: url(./Untitled\ design\ \(3\).png 5% 50%);
+}
+
+.site-main .site-banner .site-title h2{
+padding-top: 17%;
+font-weight: 500;
+}
+
+.site-main .site-banner .site-title h2::after{
+    content: " ";
+    height: 2px;
+    width: 25vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h6{
+    font-size: 1.2rem;
+}
+
+.title-text{
+    font: normal bold 50px/72px "Roboto";
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    padding: .8rem 3.2rem;
+    font: normal 500 16px/20px "Roboto";
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.site-button .primary-button{
+    background: rgb(235, 80, 14);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: 20px;
+}
+
+.site-button .secondary-button{
+    background: rgb(235, 80, 14);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: 20px;
+}
+
+.site-button .primary-button:hover{
+background: whitesmoke;
+background-clip: padding-box;
+color: orangered;
+border-color: orangered;
+}
+
+.site-button .secondary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: orangered;
+    border-color: orangered;
+}
+
+/* end banner area */
+
+/* start about area */
+
+.site-main .about-area{
+    padding: 6rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    color: orangered;
+    font: normal bold 55px/80 px "Roboto";
+    letter-spacing: 12px;
+    line-height: 40px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+p.para{
+    color: black;
+    font: normal 500 16px/25px "Roboto", cursive;
+}
+
+.button{
+    padding: .8rem 3.2rem;
+    font: normal 500 16px/20px "Roboto";
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.about-title .primary-button{
+    background: rgb(235, 80, 14);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: 20px;
+}
+
+.about-title .primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: orangered;
+    border-color: orangered;
+}
+
+/* end about area */
+
+
+/* start quote area */
+
+.site-main .quote-area .quote-title .blockquote{
+    color: black;
+    font: normal 25px/16px "Roboto";
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.site-main .quote-area .quote-title .blockquote-footer{
+    color: rgb(247, 115, 67);
+    font: normal 16px/12px "Roboto";
+    padding-bottom: 2rem;
+}
+
+/* end quote area */
